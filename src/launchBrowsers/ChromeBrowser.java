@@ -19,9 +19,10 @@ public class ChromeBrowser {
 		
 		driver.navigate().forward();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		driver.navigate().refresh();
+		driver.close();
 
 	}
 
